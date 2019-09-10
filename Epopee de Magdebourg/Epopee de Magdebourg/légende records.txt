@@ -1,0 +1,4 @@
+plus petit nb de tours
+plus grand nombre d'unités restantes
+type d'unité qui a fait le plus de kills
+nombre de kills par cette unité

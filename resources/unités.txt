@@ -1,0 +1,26 @@
+Canon
+	Forts contre structures
+	Peu de PV
+	Peu de mouvement
+	Beaucoup de portée
+	Incapable d'aller dans les cases difficiles
+	-Doit être installée?
+Infanterie
+	Corps à corps
+	Dégâts élevés
+	Peut se déplacer dans les cases difficiles
+Arquebusiers
+	Portée moyenne
+	Faible contre l'infanterie
+	Peut se déplacer dans les cases difficiles
+Cavalerie
+	Beaucoup de mouvement
+	Corps à corps
+	Ralenti par les cases difficiles
+Commandant
+	Boost les dégâts des unités dans un rayon de 3 cases
+	Malus permanent à toute l'armée à sa mort
+
+Acteurs:
+	Tilly
+	Beaudelaire Monami

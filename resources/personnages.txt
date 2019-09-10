@@ -1,0 +1,29 @@
+Amir Fanberg, pirate fourbe mais honnête
+	-Actif: Soutien du Loli Fanberg
+		Dégâts de zone
+	-Passif: Maître-Arquebusier
+		Bonus aux arquebusiers
+
+Anfray Brunissende, la Nunja
+	-Actif: Infirmière du couvent
+		Soins à une unité
+	-Passif: Volonté du Seigneur
+		Léger soin aux unités en début de tour
+
+Konrad de Velours, Bretteur arrogant
+	-Actif: Écuyer de Velours
+		Unité supplémentaire: Chevalier de Velours
+	-Passif: Fine Lame
+		Bonus à l'infanterie
+
+Luigi Dumoulin, Tueur à gages retraité
+	-Actif: Assassin
+		Le commandant attaque tous les ennemis adjacents à sa case
+	-Passif: Âge d'or
+		Les ennemis n'attaquent pas le commandant
+
+Rodrich Judas, Lieutenant-docteur-inspecteur-charlatan
+	-Actif: Stalker
+		?Téléporte une unité sur une case adjacente à un allié
+	-Passif: Passe-partout
+		Les unités peuvent passer sur les cases occupées par un ennemi
