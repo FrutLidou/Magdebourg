@@ -1,4 +1,13 @@
 *.pdb
 *.obj
 *.vcxproj
+*.suo
+*.db
+*.ipch
+*.exe
+*.ilk
+*.tlog
+*.lastbuildstate
+*.log
+*.idb
 records.txt
