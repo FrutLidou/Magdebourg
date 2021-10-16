@@ -1,0 +1,4 @@
+*.pdb
+*.obj
+*.vcxproj
+records.txt
