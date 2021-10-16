@@ -8,6 +8,7 @@
 #include <string>
 #include <stdlib.h>
 #include <time.h>
+#include <vector>
 //-----------------------------------------------------------------
 // Initialisation pointeur statique du moteur du jeu
 //-----------------------------------------------------------------
@@ -167,16 +168,19 @@ LRESULT GameEngine::HandleEvent(HWND hWindow, UINT msg, WPARAM wParam, LPARAM lP
 
 		//MIDI
 		srand(time(NULL));
-		mciSendString("open 0.mid type sequencer alias 0", NULL, 0, NULL);
-		mciSendString("open 1.mid type sequencer alias 1", NULL, 0, NULL);
-		mciSendString("open 2.mid type sequencer alias 2", NULL, 0, NULL);
-		mciSendString("open 3.mid type sequencer alias 3", NULL, 0, NULL);
-		mciSendString("open 4.mid type sequencer alias 4", NULL, 0, NULL);
-		mciSendString("open 5.mid type sequencer alias 5", NULL, 0, NULL);
-		mciSendString("open 6.mid type sequencer alias 6", NULL, 0, NULL);
-		mciSendString("open 7.mid type sequencer alias 7", NULL, 0, NULL);
-		mciSendString("open 8.mid type sequencer alias 8", NULL, 0, NULL);
-		mciSendString("open 9.mid type sequencer alias 9", NULL, 0, NULL);
+		/*for (const auto& entry : std::filesystem::directory_iterator("/music")) {
+			//open all .mid files
+		}*/
+		mciSendString("open music/0.mid type sequencer alias 0", NULL, 0, NULL);
+		mciSendString("open music/1.mid type sequencer alias 1", NULL, 0, NULL);
+		mciSendString("open music/2.mid type sequencer alias 2", NULL, 0, NULL);
+		mciSendString("open music/3.mid type sequencer alias 3", NULL, 0, NULL);
+		mciSendString("open music/4.mid type sequencer alias 4", NULL, 0, NULL);
+		mciSendString("open music/5.mid type sequencer alias 5", NULL, 0, NULL);
+		mciSendString("open music/6.mid type sequencer alias 6", NULL, 0, NULL);
+		mciSendString("open music/7.mid type sequencer alias 7", NULL, 0, NULL);
+		mciSendString("open music/8.mid type sequencer alias 8", NULL, 0, NULL);
+		mciSendString("open music/9.mid type sequencer alias 9", NULL, 0, NULL);
 		mciSendString("open bakamitai.mid type sequencer alias bakamitai", NULL, 0, NULL);
 		return 0;
 
